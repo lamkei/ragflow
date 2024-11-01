@@ -7,6 +7,11 @@ license = "https://github.com/infiniflow/ragflow/blob/main/LICENSE"
 readme = "README.md"
 package-mode = false
 
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+priority = "primary"
+
 [tool.poetry.dependencies]
 python = ">=3.12,<3.13"
 datrie = "0.8.2"
